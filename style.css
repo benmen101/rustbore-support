@@ -1,0 +1,12 @@
+:root { color-scheme: dark; --bg:#160d0a; --panel:#221612; --ink:#f4e6cf; --dim:#b39b80; --gold:#ffd27a; --rust:#c4672c; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, "SF Pro Text", system-ui, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+h1 { font: 900 44px/1.05 "Avenir Next Condensed", Impact, sans-serif; letter-spacing: .5px; margin: 0 0 6px;
+  background: linear-gradient(#ffd27a, #e0782e 60%, #8f3b16); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h2 { font: 800 22px/1.2 "Avenir Next Condensed", Impact, sans-serif; color: var(--gold); margin: 34px 0 8px; letter-spacing: .4px; }
+.sub { color: var(--dim); margin: 0 0 26px; }
+.card { background: var(--panel); border: 1px solid #3a2a20; border-radius: 14px; padding: 18px 20px; margin: 14px 0; }
+a { color: var(--gold); }
+nav { display:flex; gap:18px; margin-bottom: 30px; font-weight: 700; }
+footer { color: var(--dim); font-size: 14px; margin-top: 50px; }
